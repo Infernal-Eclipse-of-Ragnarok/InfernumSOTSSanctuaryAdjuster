@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Terraria.ModLoader.Config;
 
 namespace InfernumSOTSSanctuaryAdjuster
@@ -34,13 +30,13 @@ namespace InfernumSOTSSanctuaryAdjuster
         [Range(0f, 1f)]
         [DefaultValue(0.27f)]
         [ReloadRequired]
-        public float LeftFraction { get; set; } = 0.25f;
+        public float LeftFraction { get; set; } = 0.27f;
 
         [Label("Right-side fraction (when Jungle is on the LEFT)")]
         [Range(0f, 1f)]
         [DefaultValue(0.73f)]
         [ReloadRequired]
-        public float RightFraction { get; set; } = 0.75f;
+        public float RightFraction { get; set; } = 0.73f;
 
         [Header("Tiles")]
         [Label("Absolute tiles from left (when Jungle is on the RIGHT)")]

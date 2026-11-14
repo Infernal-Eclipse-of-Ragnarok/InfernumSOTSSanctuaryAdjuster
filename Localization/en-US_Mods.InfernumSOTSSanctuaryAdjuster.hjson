@@ -52,8 +52,20 @@ Configs: {
 
 	PositionMode: {
 		Tooltip: ""
-		Fraction.Label: Fraction
-		Tiles.Label: Tiles
-		Nudge.Label: Nudge
+
+		Fraction: {
+			Label: Fraction
+			Tooltip: ""
+		}
+
+		Tiles: {
+			Label: Tiles
+			Tooltip: ""
+		}
+
+		Nudge: {
+			Label: Nudge
+			Tooltip: ""
+		}
 	}
 }
